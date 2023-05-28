@@ -1,0 +1,54 @@
+*{
+    margin:0%;
+    padding:0%;
+  
+}
+/* .background{
+    background-image:url('images/greencar.jpg');
+    background-repeat: no-repeat;
+   opacity:(rebeccapurple,#323232,#081767);
+    
+} */
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size:45px;
+    color:#850000;
+}
+p{
+    line-height:1.6;
+    font-size:20px;
+    padding-top:4px;
+    
+}
+p span{
+    color:#187498;
+    font-size:20px;
+}
+.fordpower{
+    font-size:18px;
+    color:#323232;
+}
+.footer{
+    background-color:black;
+    /* height:85px; */
+    color:#FF8E9E;
+}
+.footer i{
+    font-size:30px;
+    color:#2B3467;
+}
+.footer img{
+    height:60px;
+    width:75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+  
+}
+.footerh3{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding-top:0.4%;
+   text-align: center;
+}

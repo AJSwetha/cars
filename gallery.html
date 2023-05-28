@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GalleryPage</title>
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div id="background">
+    <h2>IT'S A FORD THING <span><i class="fas fa-car"></i></span></h2>
+         <div style="padding-left:32%;padding-top:2%;">
+    <div class="slider">
+       <div class="slides">   
+<!-- 4Radio buttons -->
+         <input type="radio" name="radios" id="radio1">
+         <input type="radio" name="radios" id="radio2">
+         <input type="radio" name="radios" id="radio3">
+         <input type="radio" name="radios" id="radio4">
+       
+<!-- 4Images -->
+        <div  class="slide first">
+            <img src="images/bluecar.jpg"></div>
+        <div  class="slide">
+            <img src="images/whitecar.webp"></div>
+        <div  class="slide">
+            <img src="images/redcar.webp"></div>
+        <div  class="slide">
+            <img src="images/greencar.jpg"></div>
+ <!--2 types of Image Format -->
+ <!-- ( Auto) -->
+             <div class="auto">
+                <div class="auto1">
+                </div>
+                <div class="auto2">
+                </div>
+                <div class="auto3">
+               </div>
+                <div class="auto4">
+                </div>
+             </div>
+       </div>
+       <!-- (Manual)  -->
+       <div class="manual">
+               <label for="radio1" class="manuals"></label>
+               <label for="radio2" class="manuals"></label>
+               <label for="radio3" class="manuals"></label>
+               <label for="radio4" class="manuals"></label>
+       </div>
+     </div>
+    </div>
+</div>
+
+     <div class="footer">
+   
+    <h3 class="footerh3"> <i class="fa-solid fa-quote-left"></i>  NOBODY IS PERFECT. BUT IF YOU DRIVE A FORD. YOU'RE PRETTY   <i class="fa-solid fa-quote-right"></i></h3>
+     <img src="images/ford logo.png">
+<!-- Automatic Slide -->
+<script>
+    var counter=1;
+    setInterval(function(){
+         document.getElementById('radio'+counter).checked=true;
+         counter=counter+1;
+      //    counter++
+      if(counter>4){
+          counter=1
+      }
+    },3000) 
+ </script>
+</body>
+</html>
